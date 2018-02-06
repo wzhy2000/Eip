@@ -1,0 +1,14 @@
+import(parallel);
+import(methods);
+import(stats);
+import(graphics);
+import(grDevices);
+import(utils);
+import(mvtnorm);
+import(snpStats);
+import(minpack.lm);
+
+export(TIAN.snp1_test)
+export(TIAN.snp2_test)
+export(TIAN.snp3_test)
+

@@ -1,0 +1,12 @@
+Package: Eip
+Version: 1.0-1
+Date: 30 Feb 2010
+Title: Epistatic Interaction Package.
+Author: Statistical Genetics Center of Penn State University.
+Maintainer: Zhong Wang <zzw2@psu.edu>
+Description: Analysis of experimental crosses to identify genes (called quantitative trait loci, QTLs) contributing to variation in quantitative traits.
+Depends: R (>= 2.4.0)
+License: GPL-3
+ZipData: yes
+URL: http://statgen.psu.edu/
+Packaged: Wed Jun 30 12:05:47 2010; wz
