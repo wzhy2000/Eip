@@ -10,7 +10,7 @@ The Epistatic Interaction Package (Eip) is developed to estimate the epistatic e
 
 [2] Zhong Wang, Zhenwu Lin, Arthur Berg, John Hegarty, Walter A. Koltun and Rongling Wu. A general model for multilocus epistatic interactions in Case-Control studies.
 
-## Install
+## Installation
 
 The Eip package does not depend on any package, so it is very easy to install. After you download this package file, please type the following command or click the menu item "Install packages from local zip files".
 
