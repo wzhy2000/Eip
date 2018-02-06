@@ -1,6 +1,9 @@
-# Eip: Epistatic Interaction Package for R (Version 1.0)
+# Eip
+
+Epistatic Interaction Package for R (Version 1.0)
 
 ## Description:
+
 The Epistatic Interaction Package (Eip) is developed to estimate the epistatic effector in a candidate-gene case-control data set based on the Tian's model [1, 2]. In general, the case-control data has two groups, one group includes m cases who display a disease, and another group includes n control with no disease. All the cases and controls are genotyped for some SNPs. This package can calculate the p-value for all the combinations of 2 SNPs and 3 SNPs of case-control data. Based on the p-values results, some significant SNP combinations with epistatic effector are selected to export in the summary. For more details, please refer to the document.
 
 [1] Tian Liu, A,Thalamuthu, J.J.Liu, C.Chen,Yao Li,and Rongling Wu. A Model for testing epistatic interactions of complex diseases in Case-Control studies.
@@ -8,6 +11,7 @@ The Epistatic Interaction Package (Eip) is developed to estimate the epistatic e
 [2] Zhong Wang, Zhenwu Lin, Arthur Berg, John Hegarty, Walter A. Koltun and Rongling Wu. A general model for multilocus epistatic interactions in Case-Control studies.
 
 ## Install
+
 The Eip package does not depend on any package, so it is very easy to install. After you download this package file, please type the following command or click the menu item "Install packages from local zip files".
 
 Windows OS:
@@ -23,8 +27,10 @@ After it is loaded, all functions within Funmap will be readily available to the
 
 ## Document
 
+https://github.com/wzhy2000/Eip/blob/master/eip-intro.pdf
 
-## Sample Script:
+
+## Sample Script
 
 ```
 sys$set_value("legend.peak" , 0.000001);
@@ -42,7 +48,7 @@ options  <- list(
 
 r <- TIAN.full_test( sCsvFile, options=options, output="grp1", model=2 );
 ```
-## Sample Figures:
+## Sample Figures
 
 ![Image of 2 SNP test ](https://github.com/wzhy2000/Eip/blob/master/img/correlation-sample-snp2.jpg)
 
