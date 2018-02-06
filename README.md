@@ -19,7 +19,8 @@ Please use the install_github to install this package directly from GitHub.
 Windows/Linux/Mac OS:
 
 >library(devtools);
->install.github("wzhy2000/Eip/Eip")
+
+>install_github("wzhy2000/Eip/Eip")
 
 Before the package is used in R, the package importation is necessary by the following command:
 > library(Eip)
