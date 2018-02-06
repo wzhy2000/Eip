@@ -44,4 +44,8 @@ r <- TIAN.full_test( sCsvFile, options=options, output="grp1", model=2 );
 ```
 ## Sample Figures:
 
+![Image of 2 SNP test ](https://github.com/wzhy2000/Eip/blob/master/img/correlation-sample-snp2.jpg)
+
+![Image of 3 SNP test ](https://github.com/wzhy2000/Eip/blob/master/img/correlation-sample-snp3.jpg)
+
 
