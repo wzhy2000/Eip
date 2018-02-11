@@ -2,6 +2,8 @@
 
 Epistatic Interaction Package for R (Version 1.0)
 
+The package has been moved from http://statgen.psu.edu/software/eip.html to here.
+
 ## Abstract
 
 The Epistatic Interaction Package (Eip) is developed to estimate the epistatic effector in a candidate-gene case-control data set based on the Tian's model [1, 2]. In general, the case-control data has two groups, one group includes m cases who display a disease, and another group includes n control with no disease. All the cases and controls are genotyped for some SNPs. This package can calculate the p-value for all the combinations of 2 SNPs and 3 SNPs of case-control data. Based on the p-values results, some significant SNP combinations with epistatic effector are selected to export in the summary. For more details, please refer to the document.
